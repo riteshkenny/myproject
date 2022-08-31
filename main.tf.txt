@@ -1,0 +1,25 @@
+provider "aws" {
+  region = "us-west-1"
+  access_key = "AKIAZNB4P2Q4M6CPGDEO"
+  secret_key = "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"
+}
+resource "aws_instance" "web" {
+  ami            = "ami-018d291ca9ffc002f"
+  instance_type  = "t2.micro"
+  tags = {
+    Name = "web"
+  }
+}
+/*s3 bucket creation*/
+
+resource "aws_s3_bucket" "b" {
+  bucket = "londonbucket31staug1"
+
+  tags = {
+    Name        = "londonbucket31staug1"
+    Environment = "Dev"
+  }
+}
+resource "aws_iam_role" "test" {
+  name = "test"
+}
