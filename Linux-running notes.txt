@@ -1,0 +1,148 @@
+AWS - Free account
+===============
+1 year - 750 hrs - 5hrs - 745hrs
+
+Server
+=========
+Linux Server
+
+AWS Account
+===========
+1.E-mailid
+2. Debit/Credit card - 2/rs account -
+
+5 steps process
+=================
+
+2. putty software
+  putty gen
+
+Linux
+==========
+software
+ 8GB RAM
+1. CentOS -
+2. Ubuntu
+3. Suse linux
+
+Server in AWS
+==================
+1. EC2 - Elastic Compute CLoud  - VM Server
+
+EC2-Instnace/service/server
+==========================
+7 Steps
+
+key pair
+=============
+2 types
+1. public key pair(pem file) - AWS
+2. private key pair(ppk file) - local server
+
+based pubilc key we are going to generate private key
+==============================
+puttygen
+
+SSH - Secure Shell - 22
+HTTPS - Hyper Text Transfer Protocol Service- 443
+HTTP - Hyper Text Transfer Protocal - 80
+
+How to convert the private key using with public key
+=========================================
+
+putty server
+================
+we need have to have the private
+
+
+Connect with server
+====================
+
+putty 
+
+
+Linux Server 
+=============
+
+mkdir aws
+
+
+Permissions and rights
+====================
+1. Ownership - chown
+
+  file
+  group
+  directories
+
+d    rwx       r-x      r-x
+dir  user      group    others
+
+d    rwxr      -xr      -x 
+dir  user	group	others
+
+chmod
+
+Read	-4
+write	-2
+execute	-1
+================    
+        7
+touch test.txt
+
+user - 4
+group -4
+others - 2
+
+chmod 442 test.txt
+
+rw-r--r
+4+2=644
+
+rw--x---w- 
+612
+chmod 612 test.txt
+
+raj
+rwx r r
+7  4 4 raj
+chmod 744 raj
+
+
+mkdir d1
+d- rwx-7
+user -0
+group -0
+
+chmod -R 700 d1
+
+Vim Editor:
+=======
+CLI - Command Lne Interface
+wq!
+extended mode 
+esc shift:wq!
+q!
+
+monitoring tool - top
+
+ping command
+ping -c2 google.com
+
+software management
+====================
+python is not install
+
+python
+
+centos
+=========
+yum - yellow dog update manager
+yum install git -y
+
+
+
+
+
+
+
