@@ -1,0 +1,302 @@
+Operatating system:
+=================
+Linux
+=====
+Linux is OS 
+CentOS debin fedira
+Ubuntu
+linux is purely working with commands
+windows OS
+
+Pre-Requisities:
+=================
+1. AWS Acount
+===============
+free 1year
+E-Mail account
+debit/credit card - 2/rs - 
+24hrs - immediately
+
+aws account - 5 steps process
+
+AWS Account is ready
+
+2. server
+
+AWS - EC2
+
+windows - 8GB RAM - 50,000
+AWS EC2 - 8GB RAM
+
+account is activated
+ aws console login 
+  2 options
+  Root user
+ Login server: email id
+ pwd - 
+
+AWS Region: 
+============
+region is nothing but country
+London
+
+Availibity Zone:
+=================
+states 
+ 
+1. High avaliable 
+2. security
+3. netwroking
+
+3. we are creating the server
+===========================
+7 steps
+
+ec2 
+===========
+elastic compute cloud, this is using for creating VM(Virtual machines)
+
+1. Linux server
+2. AMI
+3. Instance type
+t2.micro - 8GB Free
+4. key pairs
+You can use a key pair to securely connect to your instance. 
+Ensure that you have access to the selected key pair before you launch the instance.
+  2 types
+    1. public key also called pem file - stored in aws
+    2. private key also called as PPK(Putty private key) - stored by you
+5. VPC networking
+security group: http, https
+SSH - Secure shell - 22
+HTTP - Hyper text transfer protocol - 80/8080
+HTTPS - Hyper text transfer protocol Services - 443
+
+How to connect the server
+===========================
+putty 
+https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.78-installer.msi
+1. public key
+2. private key?
+puttygen
+
+connect the server
+===================
+putty server = tomorrow
+
+
+
+File system Hierarchy:(FSH)
+=======================
+the linux file hierarchy structure or the FSH, defines the directories contenets and files.
+
+
+sudo -i
+home user to root user
+#
+ Root:
+======
+/bin/
+/opt/
+/boot/
+/root/
+/dev/
+/sbin/
+/etc/
+/srv/
+/home/
+
+ls 
+===
+list of directories & files will be visible
+Blue colors - will be identify the directories
+white colors - will be identify the files
+
+Ec2 instance/server/service
+
+How to create multile directories:
+===============================
+mkdir d1 d2 d3 d4
+how to remove the directory
+===========================
+rmdir d4
+How to create multiple files:
+===========================
+touch f1 f2 f3 f4
+how to remove the file
+========================
+rm -f f4
+rm -f f2 f3
+
+Short Cut Commnads:
+======================
+Linux/Unix Command
+=========
+1. File commands
+
+ls - directory listing/ files listing
+ls -al  - hidden files to be displyed
+cd dir - change dir to dir
+cd - change to home
+rm file - delete file
+rm -f filename - force remove file
+rm -r dir -
+rm -rf dir
+cp file1 file2 - copy the file1 file2
+cp -r dir1 dir2 - copy the dir1 dir2
+mv file file2 - rename or move file1 dile2
+touch file -
+cat file - to see content inside file
+more file - output the content of file
+head file - output the first 10 lines of file
+tail file -  output the last 10 lines of file
+tail -f file - output the content of files as it grows, starting with the last 10 lines
+
+Permissions and Rights
+=========================
+rights(ownership)
+==============
+files & directories level
+chown
+-rw-r--r--.
+r - read   - 4
+w - write  - 2
+x - execute- 1
+======================
+             7
+chown ec2-user file.txt
+
+change ownership with group level
+===========================
+ec2-user
+
+change the recursively of ownership
+=======================
+-R
+chown -R root file.txt(filename)
+
+mkdir test
+cd test
+file1 file2 file3 file4
+
+chown -R ec2-user:ec2-user test
+
+Permissions:
+=============
+chmod 
+r - read   - 4
+w - write  - 2
+x - execute- 1
+
+Example:
+==============
+d(directiroy)   rwx=4+2=1(7)-user	r-x(4+1=5)-Group	r-x(4+1)-others
+
+rw-r--r- = 
+us-g--others
+644
+
+user -r
+group -r
+other - w
+rw-r-r
+644
+
+test
+chmod 442 test.txt
+
+directory
+=============
+user -7
+group-0
+others - 0
+mydir
+chmod -R 700 mydir
+
+vim:
+=============
+
+Vim is powerfull text editor used in CLI(Command Line Interface).
+Linux uses a lot of configuration files.
+if you edit them and vim is a great tool do so, aletrnatively VIM is a command line editor
+
+It has 3 modes:
+----
+1. Command Mode
+2. Insert Mode -i
+3. Extended Mode -
+vim file.txt
+hi team we are learing linux commands
+it will be easy for us
+shift g
+
+Monitoring:
+==============
+top
+
+ping command:
+=================
+ping Packet Internet Groperused to check the n/w connectivity
+ping -c2 google.com
+
+c - here "c" represents no.of hops you want as output.
+incase we gave 2. hence we arr getting hopeand then its getting exited
+
+vmstat command:
+===============
+vmstat 1 5
+
+User administration:
+=========================
+user managemnet is an important part of Linux system administration
+we need to perform diffrenet oprations such as adding, deleting, managing the account which is the part of servers
+types of users in linux OS
+================
+1. Super user - root account
+2. System User -system users are created by ssytem such as bin, game, ftp,name, mail,daemon, apache etc, nologin
+3. Regular user: will be created by super user
+regular user can login to the system, but has access limitations
+/etc/passwd - is the file which is holding all the information about the system users in the machine
+
+grep - global regular expression print
+
+I have changed region
+new EC2-Instance
+Putty server
+
+Software Mangement:
+========================
+2 types of softwares
+1. RPM - Redhat package manager(rpm)
+2. yum - yellow dog update manager(yum)
+
+
+Linux Operating System:
+========================
+1. centos - yum
+2. ubuntu - apt-get
+
+install with Git software:
+======================
+centos - yum install git (yum install maven)
+ubuntu - apt-get install git
+
+DNS:
+==========
+Domain name specific
+nslookup 
+
+Change the Hostname:
+====================
+hostname linux.example.com
+
+Real Time:
+==========
+dont stop the servers
+if servers stopped means you need to take E-Mail confirmation
+
+.pem file(public key) - this is storing by aws
+.ppk file putty private key(private key) - you will be storing
+
+cat /etc/os-release
+
