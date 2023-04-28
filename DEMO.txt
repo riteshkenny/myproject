@@ -1,0 +1,170 @@
+DevOps & Cloud
+=================
+ DevOps 
+=========
+Pre-Req
+===========
+
+Windows - VM Server - On Primises
+==========
+
+Pre-Req
+============
+1. AWS - Free count - 1year - 750 Hrs- Debit/Credi - 2rs - 
+2.OS - Linux - 80% Linux - server - AWS -Ec2
+  =============
+
+DevOps
+==========
+To reduce the manual efforts automation 
+DevOps - 7 Principle - Agile Methodologies
+
+6 Tools
+
+1. SCM - Source Code Management - Git, Github & Github
+2. Build Tool - Maven
+3. Continuous Integration - Jenkins ( Groovy Script,shell) - CI-CD ( Scratch to till final Deployment)
+4. Containrzation - Docker  - AWS - yaml - Micro Services
+5. Container Orchestration - Kubernetes- K8S - Google Cloud Platform(GCP)- yaml
+6. Confiuration Manaemnt - Ansible - yaml file
+
+
+Cloud
+----------
+1. AWS - Amazon Web services
+2. GCP - Google Cloud Plaform
+3. Azure
+4.
+
+AWS    - 250 + services -.net, bigdata, servicenow
+========
+99.9999999%
+High avilable
+networking
+Security
+
+AWS - 
+======
+2 ways UI(Console, CLI)
+
+1. VM Server - EC2 - capacity, ram cpu, 
+2. Networking - VPC - Project
+3. Storage -S3
+4. Admin - IAM
+5. DR - EBS - Take backup - Recreate every thing
+6. RDS-, db, automatic backups, Replica set
+7. Monitoring Tool - CloudWatch - 80%
+8. SNS
+9. Cloud Trail
+10. Cloud Logs
+11. Code Commit
+12. EIP
+13. Termination Protection of our server
+14. Load Balancer
+15. Auto Scalling Group & Policies
+
+Amazon - E-commerce Application
+==========================
+New year - discount - 70k, 30% 
+Million users are wait - Amazon - the server go down - Amazon Cores to gether - you cant able
+DevOps - 
+
+Shell Scripting 
+==================
+
+IaaC Tool
+=============
+Infra structure as a code - Terraform
+
+Automation
+
+K8S
+Terraform
+shell scripting
+
+23 Tools
+5 diff kilss
+
+4 Jobs
+=============
+1. Cloud & DevOps Engineer
+2. Cloud Engineer
+3. DevOps Engineer
+4. SRE - Site Realiability Engineer - server monitoring
+5. Linux, DevOps & Cloud Engineer
+
+Resume
+=========
+
+Duration - 45 Days 
+Mon - Fri - 90 
+Live Project
+secario based
+Basic - 
+
+Every Mock Interviews - take - 5yrs of years
+
+Resume preparation
+Day to Day Recording
+Day to Day documentation
+Tool wise - interview
+All interview questions
+Chat Sheet - short cut commands
+Project -
+Day to Day to Responsiblities
+Task - 
+3 yrs - 10 Lacs - 24 Lacs (5 yrs)
+
+35 Days - 
+sat - Sun - 
+
+DevOps 
+==========
+Final Deployment
+
+Developer - Java, .Net, Python, c, c++ - 
+Testing - dev & Testing - clear
+Github
+Application Code - Maven Code
+
+DevOps
+===========
+Manual - 
+Automation - CI-CD ( Continuous Integration(Jenkins), Continuous Deployment/ Continuous Delivery
+Groovy Script
+
+Final Deployment
+
+Monitor - SRE - 
+
+DevOps & Cloud Engineer
+===============
+
+Dev - Env
+UAT - ENV
+SAT- ENV
+Pre-Prod
+
+Production deployment
+
+DevOps Dev
+Devops Admin
+Devops Support
+
+
+Cloud
+==========
+
+AWS - 37%
+Azure - 20
+GCP - 20
+Prv Clouds - IBM CLoud, Oracle Cloud, Rakuten Cloud, Alibaba Cloud, Digital Occasion- 20%
+
+
+
+
+
+
+
+
+
