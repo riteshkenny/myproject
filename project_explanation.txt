@@ -1,0 +1,194 @@
+1st Req from Architect/Deliverymanager/projectmanager
+=====================================================
+20 mem
+per exp, skills
+
+Scrum Master/BA
+
+Task 
+=========
+
+3 Teams
+================
+Admin
+Develepment
+Support
+Supprot master- Product owner/Architect
+Shobha - 
+
+Scrum Calls/ Daily Standup calls/ Daily Standup Meeting
+==============================================
+30 - 1hr
+3 imp Points
+1. what you did yesterday
+2. what you are going today
+3. Impidements
+   (permissions)
+
+
+
+Task
+==========
+1. Jira Dashbord
+2. CLM - 
+3. Kanbon Board
+4. ServiceNow
+
+Task
+===========
+Monthly once - 
+Every 2 weeks - 22 days
+10 days
+  2 times
+
+1 task - K8S deployment startegies - 3(days)
+====================
+9 -6 pm - i just update what you did wholeday
+
+ 
+  rs - svc - (user story - sub story - aasign- your name)
+  Rolling update
+
+  1. rs 
+  2. svc
+
+Aug 15th - aug 30th 
+
+if we need to go with architecture
+daily - make - document- 
+
+Architect
+
+deployment
+take images
+
+Architect - Wiki Page - internal 
+
+2 weeks sprint Podium
+========================
+
+what you have done last week 10 minutes - present entire - architect - director 
+should be there in the meeting
+
+2 weeks sprint Retrospective
+===========================
+2 week - you, - 1 week - 3 days
+
+
+Roles & Responsibilities
+=============================
+project
+roles & responsibilites
+
+1. groovy script
+2. iam the responsiblie to create a Dockerfile
+3. i am workig end to end CI-CD Automation(CICD- Manual, Automation)
+
+10-15 points
+  
+
+Devops 
+==============
+web server - Java dev.db team
+create the ticket - devops
+
+Terraform
+============
+
+Git
+=========
+git clone git@github.com:grvsobha/myproject.git
+git barnch
+master
+git barnch master
+object is not
+git pull
+git clone git@github.com:grvsobha/myproject.git
+gitc checkout master
+master
+
+CI - Jenkins
+CD - Docker
+
+stages
+CI - Jenkins
+CD - Kubenetes
+
+ci-cd automation - task
+===================
+Jenkins CI-CD
+jenkins URL, am facing issue called 500error, am doing with RCA
+
+
+CD - Jenkins, Docker, Ansible, K8S, Terraform
+
+
+
+Interview Discussion
+========================
+Hi Good morning 
+my self shobha
+i have over all 10 years of exp in IT Industry
+
+Techincal skills
+==================
+os linux   - panel linux commands
+Devops
+========
+git,github, gitlab
+maven, i have expin Build tool using with maven
+CI -CD - Jenkins
+Containrzation tool called Docker
+container orchestration tool - K8S - GKE
+configuration managemnet tool - ansible
+AWS
+==========
+VM Server- ec2
+stirage - s3
+n/w - VPC
+Monitoring tool -cloudwatch
+Having good expe in admin IAM
+
+IaaC - Infrastructue as a code having in Terraform
+
+
+
+Jenkisn- Master/ slave - 2 days 3 days
+
+KT - you need to recording
+
+deployment
+==============
+docker deployment - Dockerfile- Docker-compose
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
